@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Bebas Neue", sans-serif;
+
+}
+
+
+body{
+    background-color: black;
+    font-size: x-large;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/img/TEXTURE.jpg);
+    border-radius: 5px;
+    
+}
+
+#NAME1{
+    margin: 30px;
+    padding: 3%;
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    top: 50px ;
+    left:200px ;
+    color: #bfd200;
+}
+
+#LOGO{
+    width: 150px;
+    height: 150px;
+    margin-top: 5%;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    margin-LEFT: 50px;
+}
+
+aside{
+    margin-left: 725px;
+    position: absolute;
+    top: 150px;
+    
+}
+
+header nav ul{
+    font-size: 40px;
+    color: #80b918;
+    text-align: center;
+}
+
+header nav ul li{
+    display: inline;
+    margin-right: 50px;
+}
+
+header ul li a:hover{
+    color: black;
+  }
+
+a{
+    color: #80b918;
+}
+
+#h11{
+    color: #dddf00;    
+}
+
+#h22{
+    margin: 50px 0 50px 0;
+    text-align: justify;
+    color: #dddf00;
+    
+}
+
+footer{
+    background-color: #81b91883;
+    color: black;
+}
+
+#HeyoImg{
+    display: flex;
+    height: 500px;
+    width: 500px;
+    border-radius: 70px;
+    justify-content: center;
+}
+
+#iconos{
+    width: 22px;
+    height: 22px;
+    color: black;
+}
+
+iframe{
+    display: block;
+    position: relative;
+    display: block;
+    margin-top: 125px;
+    margin-bottom: 125px;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 25px;
+}
+
+form{
+    display: block;
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 35px;
+    padding: 100px;
+    background-color: #80b918;
+    border-radius: 12px;
+    font-size: xx-large;
+    
+}
+
+#ciudad{
+    height: 35px;
+    width: 144px;
+    border-radius: 8px;
+    font-size: x-large;
+}
+
+input{
+    height: 35px;
+    width: 144px;
+    border-radius: 8px;
+}
+
+option{
+    height: 35px;
+    border-radius: 8px;
+}
+
+#button{
+    color: #bfd200;
+    background-color: black;
+    text-align: center;
+    font-size: xx-large;
+    height: 45px;
+    width: 144px;
+    margin-left: 5%;
+}
+
+#section1{
+    margin: 5%;
+    padding: 12px;
+    text-align: justify;
+    background-color: black;
+    border-radius: 8px;
+    color: #dddf00;
+    
+}
+
+#section2{
+    margin:5%;
+    margin-right: 5%;
+}
+
+#ley1{
+    font-style: italic;
+    text-align: justify;
+    color: black;
+}
+
+.whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+  }
+  
+  .whatsapp-icon {
+    margin-top:14px;
+  }
+  
+  #NAME1:hover{
+    color: black;
+  }
+
+
+  .card{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 50px;
+    padding: 2%;
+
+  }
+
+  .card .Face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 1s;
+  }
+
+  .card .front{
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px black;
+  }
+
+  .card .front img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .card .front h3{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #FFF;
+    background-color: rgba(0, 0, 0, .4);
+    text-align: center;
+  }
+ 
+  .card .back {
+    transform: perspective(600px) rotateY(180deg);
+    background-color: rgba(127, 197, 35, 0.4);
+    padding: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+  }
+
+  .card .back .link{
+    border-top: solid 1px #f3f3f3;
+    height: 50px;
+    line-height: 50px;
+  }
+
+.card .back .link .a{
+    color: #f3f3f3;
+}
+
+.card .back .h3{
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 5px;
+}
+
+.card .back .p{
+    letter-spacing: 5px;
+}
+
+.card:hover .front{
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card:hover .back{
+    transform: perspective(600px) rotateY(360deg);
+}
+.ContainerCard1{
+    display: flex;
+    margin: 12px;
+    padding: 12px;
+    border-radius: 4px;
+    justify-content: center;
+}
+.ContainerCard2{
+    display: flex;
+    margin: 12px;
+    padding: 12px;
+    border-radius: 4px;
+    justify-content: center;
+
+}
+.ContainerCard3{
+    display: flex;
+    margin: 12px;
+    padding: 12px;
+    border-radius: 4px;
+    justify-content: center;
+
+}
+
+.Card1{
+    height: 1000px;
+    width: 1000px;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 150px;
+    background-image: url(../assets/img/maiz\ textura.jpg);
+}
+.Card1 img{
+    position: relative;
+    display: block;
+    margin-top: 125px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.text11{
+    display: block;
+    color: #dddf00;
+    margin: 17px;
+    padding: 2px;
+    background-color: #000;
+    border-radius: 150px;
+    text-align: center;
+    justify-content: center;
+}
